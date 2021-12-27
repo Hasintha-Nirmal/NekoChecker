@@ -1,2 +1,2 @@
-# NekoChecker
+# Flagtous Checker
 An SK Based Checker

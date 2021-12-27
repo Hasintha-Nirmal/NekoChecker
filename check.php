@@ -45,7 +45,7 @@ if (strpos($response, '"error":')) {
     $message = json_decode($response, true)['error']['message'];
     $code = json_decode($response, true)['error']['code'];
     if ($code == 'testmode_charges_only') {
-        die('DEAD - '.$cc.' - '.$code.' - SK Fucked!');
+        die('DEAD - '.$cc.' - '.$code.' - SK DEAD!');
     } else {
         die('DEAD - '.$cc.' - '.$code.' - '.$message);
     }
